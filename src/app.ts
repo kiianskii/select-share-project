@@ -3,8 +3,6 @@ import axios from "axios";
 const form = document.querySelector("form")!;
 const input = document.getElementById("address")! as HTMLInputElement;
 
-const API_KEY = "AIzaSyDcWCG_jl7iiyRuR2gvcw76tYhIwnuJvCQ";
-
 // declare var google: any;
 
 type ApiResTypes = {
