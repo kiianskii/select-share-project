@@ -1,0 +1,58 @@
+html {
+  font-family: sans-serif;
+}
+
+#map {
+  width: 90%;
+  height: 30rem;
+  border: 1px solid #ccc;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+button {
+  border-radius: 8px;
+  background-color: rgba(190, 219, 176, 1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -2%;
+  column-gap: 8px;
+  padding: 5px 20px;
+  border: none;
+  transition: 200ms ease-out;
+
+  &:hover {
+    background-color: rgba(157, 200, 136, 1);
+    transition: 200ms ease-out;
+  }
+}
+
+input {
+  /* width: 287px;
+  height: 49px; */
+  border: 2px solid rgba(157, 200, 136, 1);
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px rgba(22, 22, 22, 0.162);
+  opacity: 0.4;
+  padding: 6px 0 7px 18px;
+  margin-bottom: 14px;
+  outline: none;
+  transition: 200ms ease-out;
+  margin-right: 20px;
+}
+
+input:hover,
+input:focus {
+  transition: 200ms ease-out;
+  border-color: rgb(120, 174, 93);
+  box-shadow: 0px 4px 16px 0px rgba(22, 22, 22, 0.359);
+}
